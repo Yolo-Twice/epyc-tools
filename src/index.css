@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+}
+
+
+/* Override dropdown styles for dark theme */
+.phone-input input {
+    background-color: #1f2937; /* Tailwind's bg-gray-800 */
+    color: #f9fafb;           /* Tailwind's text-gray-100 */
+    border-color: #374151;    /* Tailwind's border-gray-700 */
+  }
+  
+.PhoneInputCountrySelect {
+    background-color: #1f2937;
+    color: #f9fafb;
+  }
+  
+  .phone-input .PhoneInputCountrySelect:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(147, 197, 253, 0.5); /* Tailwind ring-blue-300 */
+  }
+  
+  .phone-input .PhoneInputCountryIcon {
+    filter: brightness(1.2);
+  }
+  
