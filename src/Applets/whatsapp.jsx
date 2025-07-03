@@ -15,7 +15,11 @@ export default function Whatsapp() {
 
     return (<>
         <Header />
+            <p className="m-12 mx-auto max-w-[30rem]">
+            Send messages to any phone number on WhatsApp without the need to save the contact in your address book.
+            </p>
         <div className="flex flex-col gap-y-6 p-6 mt-6 max-w-[24rem] mx-auto">
+            
             <PhoneInput
                 defaultCountry="IN"
                 placeholder="Enter phone number"
